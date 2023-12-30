@@ -1,0 +1,16 @@
+def operate(a, b):
+    return (a - b)
+
+a = float(input('Enter 1st number: '))
+b = float(input('Enter 2nd number: '))
+
+print(f'The Answer of {a} - {b} is {round(operate(a, b), 2)}')
+
+### Output: 
+
+Enter 1st number: 
+0.07
+Enter 2nd number: 
+0.04
+The answer of 0.07 - 0.04 is 0.03
+###
